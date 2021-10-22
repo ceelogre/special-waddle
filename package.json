@@ -1,0 +1,26 @@
+{
+  "name": "special-waddle",
+  "version": "1.0.0",
+  "description": "api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceelogre/special-waddle.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceelogre/special-waddle/issues"
+  },
+  "homepage": "https://github.com/ceelogre/special-waddle#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
