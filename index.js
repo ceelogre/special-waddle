@@ -1,8 +1,10 @@
 import express from 'express'
 import router from './protectedRouteHandler.js'
 import jwt from "jsonwebtoken";
+import cors from 'cors'
 
 const app = express()
+app.use(cors())
 
 app.get('/', (req, res) => {
   res.json({
