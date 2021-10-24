@@ -9,7 +9,6 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import axios from 'axios'
 
 export default {
   name: 'App',
@@ -31,7 +30,7 @@ export default {
       document.querySelector('.thunk-msg').style.display = 'block'
 
       setTimeout(() => {
-       axios.get('http://localhost:4000').then(function (Response) {
+       fetch('http://localhost:4000').then(function (Response) {
          // store data in data property
         console.log(Response)
       document.querySelector('.thunk-msg').style.display = 'none'
